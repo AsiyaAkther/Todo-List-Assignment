@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon" />
+        <link rel="stylesheet" href="output.css" />
+        <title>Todo</title>
+    </head>
+    <body>
+        <section class="todo">
+            <div class="container mx-auto">
+                <div class="flex flex-col justify-center">
+                    <h1 class="text-5xl font-bold text-amber-400 text-center">To-Do List</h1>
+                    <div class="my-10 flex mx-auto max-w-3xl w-full">
+                        <input type="text" placeholder="Add a new todo.." class="w-10/12 p-2.5 rounded-s-xl focus:outline-none" id="input-box" />
+                        <input type="button" value="Add" class="bg-green-800 w-2/12 rounded-r-xl hover:bg-green-950 text-white text-lg font-semibold transition-colors cursor-pointer" id="add-btn" />
+                    </div>
+
+                    <ul class="max-w-3xl w-full mx-auto flex flex-col justify-center text-white" id="todo-list"></ul>
+                </div>
+            </div>
+        </section>
+        <script src="main.js"></script>
+    </body>
+</html>
